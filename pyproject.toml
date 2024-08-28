@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "calc"
+version = "0.1.0"
+description = "Simple calculator"
+authors = ["Maria Alexeeva <alxvmr@altlinux.org>"]
+license = "GPLv3+"
+
+packages = [
+    {include = "calc"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+emoji = "^2.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
